@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kikz & Blez</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link href="./style/bootstrap/css/bootstrap-grid.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./style/bootstrap/css/bootstrap-icon-1.10.5.css" />
+    <!-- Goole Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap" rel="stylesheet" />
+    <link href="./style/sacramento_work_sans.css" rel="stylesheet" />
+    <!-- Countdown -->
+    <link rel="stylesheet" href="./style/simplyCountdown.theme.default.css" />
+    <!-- Styling -->
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <section id="hero" class="hero w-100 h-100 p-3 margin-auto text-center d-flex justify-content-center align-items-center text-white">
+      <main>
+        <h4>Dear Mr and Mrs</h4>
+        <h1>Kiko & Blezyl</h1>
+        <p>Still hold a Wedding reception in:</p>
+        <div id="count" class="simply-countdown"></div>
+        <a href="#home" class="btn btn-lg mt-4" onclick="return enableScroll()">View Invitation</a>
+      </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Kikz & Blez</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Kikz & Blez</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#info">Info</a>
+            <a class="nav-link" href="#gallery">Gallery</a>
+            <a class="nav-link" href="#rspv">RSPV</a>
+            <a class="nav-link" href="#gifts">Gifts</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Wedding Event</h2>
+            <h3>Held on Sunday, April 5, 2025</h3>
+            <p>Therefore, with all due respect, we intend to invite you, to attend our wedding</p>
+          </div>
+        </div>
+      </div>
+      <div class="row couple">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-8 text-end">
+              <h3>Kiko Valerio Rosario</h3>
+              <p>
+                Son of Mr Antonio Rosario<br />
+                and <br />
+                Mrs Myrna Rosario
+              </p>
+            </div>
+            <div class="col-4">
+              <img src="./img/Image (4).jfif" alt="Satria Irawan" class="img-responsive rounded-circle" />
+            </div>
+          </div>
+        </div>
+        <span class="heart"><i class="bi bi-heart-fill"></i></span>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-4">
+              <img src="./img/Image (3).jfif" alt="Nurul" class="img-responsive rounded-circle" />
+            </div>
+            <div class="col-8 text-start">
+              <h3>Blezyl Barroso</h3>
+              <p>
+                Daughter of Mr. Nestor Macalanda <br />
+                and <br />
+                Mrs Carolina Macalanda
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Event Information</h2>
+            <p class="alamat">Address: Brgy Salavante Urbiztondo, Pangasinan</p>
+            <a href="https://www.google.com/maps/place/Barangay+Salavante+Rd,+Urbiztondo,+Pangasinan,+Philippines/@15.8013609,120.3476973,17z/data=!3m1!4b1!4m6!3m5!1s0x33914e04eb69371f:0x47cdc682f428519e!8m2!3d15.8013558!4d120.3502722!16s%2Fg%2F12hkq9m0p?entry=ttu&g_ep=EgoyMDI1MDIyMy4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" target="_blank" class="btn btn-light btn-sm my-4">Click to Open the Map</a>
+            <p class="description">It is expected not to be mistaken in the address and date. When you arrive at your destination but there are no signs that the wedding is taking place, you may be on the wrong schedule or in the wrong place.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-5 col-10">
+          <div class="card text-center text-bg-light mb-5">
+            <div class="card-header">Marriage Contract</div>
+            <div class="card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-clock d-block"></i>
+                  <span>7:30</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-calendar-event d-block"></i>
+                  <span>Saturday, 5 April 2025</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">During the event, it is expected to be conducive to maintaining solemnity and solemnity throughout the process</div>
+          </div>
+        </div>
+        <div class="col-md-5 col-10">
+          <div class="card text-center text-bg-light">
+            <div class="card-header">Reception</div>
+            <div class="card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-clock d-block"></i>
+                  <span>09.00 - Finish</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-calendar-event d-block"></i>
+                  <span>Saturday, 5 April 2025</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">During the event, it is expected to be conducive to maintaining solemnity and solemnity throughout the process</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Memory Our Story</span>
+            <h2>Gallery Photos</h2>
+            <p>Before the vows, before the rings, before the grand celebration—there was just us. Two hearts, one journey, and a love that continues to grow stronger every single day.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-col-1 justify-content-center">
+        <div class="col mt-3">
+          <a href="./img/BCP09644.jpg" data-toggle="lightbox" data-caption="Image 1" data-gallery="my-gallery">
+            <img src="./img/BCP09644.jpg" alt="Satria" class="img-fluid w-100 rounded" />
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="./img/BCP00079.jpg" data-toggle="lightbox" data-caption="Image 2" data-gallery="my-gallery">
+            <img src="./img/BCP00079.jpg" alt="Satria" class="img-fluid w-100 rounded" />
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="./img/BCP00367.jpg" data-toggle="lightbox" data-caption="Image 3" data-gallery="my-gallery">
+            <img src="./img/BCP00367.jpg" alt="Satria" class="img-fluid w-100 rounded" />
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="./img/BCP00420.jpg" data-toggle="lightbox" data-caption="Image 4" data-gallery="my-gallery">
+            <img src="./img/BCP00420.jpg" alt="Satria" class="img-fluid w-100 rounded" />
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="./img/BCP00466.jpg" data-toggle="lightbox" data-caption="Image 5" data-gallery="my-gallery">
+            <img src="./img/BCP00466.jpg" alt="Satria" class="img-fluid w-100 rounded" />
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="./img/BCP01161.jpg" data-toggle="lightbox" data-caption="Image 6" data-gallery="my-gallery">
+            <img src="./img/BCP01161.jpg" alt="Satria" class="img-fluid w-100 rounded" />
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="./img/BCP01204.jpg" data-toggle="lightbox" data-caption="Image 7" data-gallery="my-gallery">
+            <img src="./img/BCP01204.jpg" alt="Satria" class="img-fluid w-100 rounded" />
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="./img/BCP09644.jpg" data-toggle="lightbox" data-caption="Image 8" data-gallery="my-gallery">
+            <img src="./img/BCP09644.jpg" alt="Satria" class="img-fluid w-100 rounded" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="rspv" class="rspv">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Confirmation of Attendance</h2>
+            <p>Fill out the form below to confirm your attendance!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center col-12">
+        <form id="my-form" class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST" action="https://script.google.com/macros/s/AKfycbxIAP9cDbiq0UJX-LhhzV0GLBuyT15TTD4zEMDMWCuNoYGVIpT3bCi4HY3d3xdhTv8twA/exec">
+          <div class="col-12 col-sm-6 col-md-5 col-lg-3">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Name</label>
+              <input type="text" class="form-control" name="nama" id="nama" placeholder="ex: Budi" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-5 col-lg-3">
+            <div class="mb-3">
+              <label for="jumlah" class="form-label">Number of Attendance</label>
+              <input type="number" class="form-control" name="jumlah" id="jumlah" min="1" max="5" length="1" value="1" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-5 col-lg-3">
+            <div class="mb-3">
+              <label for="status" class="form-label">Confirmation</label>
+              <select name="status" id="status" class="form-control form-select">
+                <option selected>Choose one</option>
+                <option value="Tidak Hadir">Can't Attend</option>
+                <option value="Hadir">Present</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-5 col-lg-3" style="margin-bottom: 4px">
+            <button class="btn btn-primary mt-4">Send</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="mt-4">
+      <div class="container text-white">
+        <div class="row">
+          <div class="col text-center">
+            <small class="d-block">&copy; 2025 Kikz & Blez Wedding, All Rights Reserved</small>
+            <small class="d-block">Design By: <a href="https://www.linkedin.com/in/kiko rosario/" class="text-decoration-none text-white">Kiko Rosario</a></small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./style/bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Lightbox -->
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+    <script src="./script/bs5-lightbox-1.8.3.bundle.js"></script>
+    <!-- Countdown -->
+    <script src="./script/simplyCountdown.min.js"></script>
+    <!-- Styling -->
+    <script type="text/javascript">
+      simplyCountdown(".simply-countdown", {
+        year: 2025, // required
+        month: 4, // required
+        day: 5, // required
+        hours: 7, // Default is 0 [0-23] integer
+        minutes: 30, // Default is 0 [0-59] integer
+        seconds: 0, // Default is 0 [0-59] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "Day", plural: "Day" },
+          hours: { singular: "Hour", plural: "Hour" },
+          minutes: { singular: "Minute", plural: "Minute" },
+          seconds: { singular: "Second", plural: "Second" },
+        },
+        onEnd: function () {
+          // your code
+          return;
+        },
+        refresh: 1000, //default refresh every 1s
+      });
+
+      const offCanvas = document.querySelector(".offcanvas");
+      const stickyTop = document.querySelector(".sticky-top");
+
+      offCanvas.addEventListener("show.bs.offcanvas", function (e) {
+        stickyTop.style.overflow = "visible";
+      });
+
+      offCanvas.addEventListener("hidden.bs.offcanvas", function (e) {
+        stickyTop.style.overflow = "hidden";
+      });
+
+      const elementRoot = document.querySelector(":root");
+
+      function disableScroll() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        let scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function () {
+          window.scrollTo(scrollTop, scrollLeft);
+        };
+
+        elementRoot.style.scrollBehavior = "auto";
+      }
+
+      function enableScroll() {
+        window.onscroll = function () {};
+        elementRoot.style.scrollBehavior = "smooth";
+        localStorage.setItem("opened", "true");
+      }
+
+      if (!localStorage.getItem("opened")) {
+        disableScroll();
+      }
+
+      window.addEventListener("load", function () {
+        const form = document.getElementById("my-form");
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: "POST",
+            body: data,
+          }).then(() => {
+            alert("Konfirmasi Kehadiran Berhasil Terkirim!");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
